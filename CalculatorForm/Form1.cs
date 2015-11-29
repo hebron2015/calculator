@@ -22,5 +22,10 @@ namespace CalculatorForm
         {
             txtDisplay.Text = String.Format("{0}", calc.Add(3, 4));
         }
+
+        private void btnSub_Click(object sender, EventArgs e)
+        {
+            txtDisplay.Text = String.Format("{0}",calc.Subtruction(7,4));
+        }
     }
 }
